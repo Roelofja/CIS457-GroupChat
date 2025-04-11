@@ -1,3 +1,16 @@
+"""
+====================================================================
+File Name   : server.py
+Author(s)   : Jayden Roelofs, Chris Lamus
+Class       : CIS 457
+Date        : 04/10/2025
+Description : 
+     - This is the server component of a multi-user chat application.
+     - It handles network communication using TCP sockets.
+     - Features include message broadcasting, and thread handling
+====================================================================
+"""
+
 import socket
 from threading import Thread
 
