@@ -26,7 +26,7 @@ class ChatClient:
         # Connect to server
         self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         try:
-            self.client_socket.connect(("127.0.0.1", 5000))  # Change if needed
+            self.client_socket.connect(("127.0.0.1", 5000))
         except Exception as e:
             self.append_chat(f"[Error] Unable to connect: {e}")
             return
